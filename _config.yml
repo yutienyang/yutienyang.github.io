@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Tiantian Yangt's Portfolio"
+title                    : "Tian Yangt's Portfolio"
 title_separator          : "-"
 name                     : &name "Tiantian Yang"
 description              : &description "Tian Yang's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
