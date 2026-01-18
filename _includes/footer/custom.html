@@ -12,5 +12,40 @@
     mermaid.initialize({startOnLoad:true, theme:'default'});
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
+<!-- ScrollSpy: highlight nav item while scrolling -->
+<script>
+(function () {
+  const ids = ["home","experience","publications","awards","projects"];
+  const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
+
+  // Minimal Mistakes top nav usually uses .greedy-nav
+  const nav = document.querySelector(".greedy-nav");
+  if (!nav || sections.length === 0) return;
+
+  const links = Array.from(nav.querySelectorAll("a"))
+    .filter(a => (a.getAttribute("href") || "").includes("#"));
+
+  function setActive(id) {
+    links.forEach(a => {
+      const href = a.getAttribute("href") || "";
+      const active = href.endsWith("#" + id) || href.includes("/#" + id);
+      a.classList.toggle("spy-active", active);
+    });
+  }
+
+  const obs = new IntersectionObserver((entries) => {
+    const visible = entries
+      .filter(e => e.isIntersecting)
+      .sort((a,b) => b.intersectionRatio - a.intersectionRatio)[0];
+    if (visible && visible.target && visible.target.id) setActive(visible.target.id);
+  }, { threshold: [0.2, 0.35, 0.5, 0.65] });
+
+  sections.forEach(s => obs.observe(s));
+
+  const hash = (location.hash || "").replace("#","");
+  if (ids.includes(hash)) setActive(hash);
+})();
+</script>
+
 
 <!-- end custom footer snippets -->
