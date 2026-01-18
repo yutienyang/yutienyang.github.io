@@ -1,0 +1,12 @@
+/* html { scroll-behavior: smooth; }
+.greedy-nav a.spy-active { font-weight: 700; } */
+/* Smooth scrolling for anchor links */
+html { scroll-behavior: smooth; }
+
+/* ScrollSpy active nav link style */
+.greedy-nav a.spy-active {
+  font-weight: 700;
+  /* 可选：更明显一点就取消注释
+  text-decoration: underline;
+  text-underline-offset: 6px;
+    */}

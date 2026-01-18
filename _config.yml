@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Tian Yangt's Portfolio"
+title                    : "Tiantian Yang's Portfolio"
 title_separator          : "-"
 name                     : &name "Tiantian Yang"
 description              : &description "Tian Yang's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,14 +23,14 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "self.jpg"
+  name             : "Tiantian Yang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Undergraduate Student at Shanghaitech University"  # A short bio that appears in the author profile section
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Shanghaitech University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yangtt2023@shanghaitech.edu.cn" 
 
   # Academic websites
   academia         : # URL

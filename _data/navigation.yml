@@ -35,7 +35,7 @@
 main:
   - title: "Home"
     url: /#home
-  - title: "Exxperience"
+  - title: "Experience"
     url: /#experience
   - title: "Publications"
     url: /#publications
