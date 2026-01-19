@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : #"en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Tiantian Yang's Portfolio"
+title                    : "Tiantian Yang's Homepage"
 title_separator          : "-"
 name                     : &name "Tiantian Yang"
-description              : &description "Tiantian Yang's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Tiantian Yang's academic homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://yutienyang.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,11 +24,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "self.jpg"
-  name             : "Tiantian Yang"
+  name             : "Tiantian Yang(楊天添)"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate Student at Shanghaitech University"  # A short bio that appears in the author profile section
+  bio              : "Undergraduate Student at ShanghaiTech University"  # A short bio that appears in the author profile section
   location         : "Earth"
-  employer         : "Shanghaitech University"
+  employer         : "ShanghaiTech University"
   uri              : # URL
   email            : "yangtt2023@shanghaitech.edu.cn" 
 
