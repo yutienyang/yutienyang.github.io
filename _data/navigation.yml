@@ -43,6 +43,5 @@ main:
     url: /#awards
   - title: "Projects"
     url: /#projects
-  - title: "CV"
-    url: /cv/
-
+  # - title: "CV"
+  #   url: /cv/

@@ -38,11 +38,11 @@ I am an undergraduate student in the School of Information Science and Technolog
 
 ## Awards
 {: #awards }
-- **2025.12**: 'Merit Student' of Shanghaitech (Academic Year 2024–2025)  
+- **2025.12**: 'Merit Student' of ShanghaiTech University(Academic Year 2024–2025)  
 - **2025.8**: First Prize, TI Cup National Undergraduate Electronics Design Contest  
-- **2025.5**: Third Prize, ShanghaiTech University Electronics Design Contest (Shanghai, China)  
-- **2024.12**: Third Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM) (Shanghai, China)  
-- **2024.5**: Second Prize, National English Competition for College Students (NECCS) (China)  
+- **2025.5**: Third Prize, ShanghaiTech University Electronics Design Contest
+- **2024.12**: Third Prize, China Undergraduate Mathematical Contest in Modeling (CUMCM)  
+- **2024.5**: Second Prize, National English Competition for College Students (NECCS)
 
 
 
@@ -57,8 +57,11 @@ I am an undergraduate student in the School of Information Science and Technolog
 - [GitHub](#) -->
 
 
+
 ### RISC-V Based AI Accelerator for CNN Inference
 <!-- - 512-bit VPU + custom engines
 - Speedup summary
 - [Report](#) / [Code](#) -->
-
+### Adaptive Filter base on Signal Processing
+### TM/TE Mode Cylindrical Microwave Cavity Resonator
+### Two-Stage CMOS Operational Amplifier Design
