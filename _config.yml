@@ -27,7 +27,7 @@ author:
   name             : "Tiantian Yang(楊天添)"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate Student at ShanghaiTech University"  # A short bio that appears in the author profile section
-  location         : "Earth"
+  location         : #
   employer         : "ShanghaiTech University"
   uri              : # URL
   email            : "yangtt2023@shanghaitech.edu.cn" 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/tiantian-yang-655274355/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
