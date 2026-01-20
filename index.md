@@ -30,7 +30,7 @@ I am an undergraduate student in the School of Information Science and Technolog
 
 ## Publications
 <!-- {: #publications } -->
-- Submitted to DAC2026(The Chips to Systems Conference)
+- DAC2026(The Chips to Systems Conference) in review
 <!-- - (If none) Selected technical reports / manuscripts. -->
 <!-- - Paper/Report title — status, year. [PDF](#) / [Code](#) -->
 
