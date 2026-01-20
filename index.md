@@ -45,7 +45,6 @@ I am an undergraduate student in the School of Information Science and Technolog
 - **2024.5**: Second Prize, National English Competition for College Students (NECCS)
 
 
-
 ---
 
 ## Projects
