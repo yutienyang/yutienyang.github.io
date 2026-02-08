@@ -33,8 +33,8 @@
 #     url: /markdown/
 
 main:
-  - title: "Home"
-    url: /#home
+  - title: "Bio"
+    url: /#bio
   - title: "Experience"
     url: /#experience
   - title: "Publications"

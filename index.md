@@ -5,11 +5,11 @@ permalink: /
 author_profile: true
 ---
 
-## Home
-{: #home }
+## Bio
+{: #bio }
 
 **Hi!** 
-I am an undergraduate student at ShanghaiTech University (School of Information Science and Technology), focusing on **EDA** and **VLSI**. My research interests include high-performance, low-power arithmetic circuits and hardware accelerator design. In **Prof. Xuanle Ren’s group** at PMICC, I conduct standard-cell implementations and build design space exploration(**DSE**) workflows for circuit optimization. I have also worked as a **course teaching assistant**, strengthening my ability to communicate and explain technical concepts clearly. Beyond research, I enjoy hands-on **engineering projects** and have won awards in several competitions.
+I am an undergraduate student at [ShanghaiTech University](https://www.shanghaitech.edu.cn/) (School of Information Science and Technology), focusing on **EDA** and **VLSI**. My research directions include high-performance, low-power arithmetic circuits and hardware accelerator design. In **[Prof. Xuanle Ren](https://sist.shanghaitech.edu.cn/rxl/main.htm)’s group** at [PMICC](https://pmicc.sist.shanghaitech.edu.cn/), I conduct standard-cell implementations and build design space exploration(**DSE**) workflows for circuit optimization. I have also worked as a **course teaching assistant**, strengthening my ability to communicate and explain technical concepts clearly. Beyond research and teaching, I enjoy hands-on **engineering projects** and have won awards in several competitions.
 
 
 
@@ -43,7 +43,7 @@ I am an undergraduate student at ShanghaiTech University (School of Information 
 
 ## Awards
 {: #awards }
-- **2026.1**: *Outstanding Teaching Assistant*, ShanghaiTech University 
+- **2026.1**: 'Outstanding Teaching Assistant', ShanghaiTech University 
 - **2025.12**: 'Merit Student' of ShanghaiTech University(Academic Year 2024–2025)  
 - **2025.8**: First Prize, Team Leader, TI Cup National Undergraduate Electronics Design Contest  
 - **2025.5**: Third Prize, ShanghaiTech University Electronics Design Contest
@@ -62,6 +62,11 @@ I am an undergraduate student at ShanghaiTech University (School of Information 
 - [GitHub](#) -->
 
 
+### Automated Compression-Tree Optimization for High-Speed Multipliers — SPARC LAB, ShanghaiTech University
+**Ongoing**
+- Developing an automated flow for **PPA-driven** optimization of multiplier **compression-tree → final-adder** implementations.
+- Exploring **topology-level design space** (e.g., stage planning and counter selection policies) with a **backend-aware evaluation loop** to guide iterative refinement.
+- Building a prototype **netlist generation + benchmarking** pipeline and comparing against standard baselines (e.g., Wallace/Dadda-style designs) under consistent synthesis constraints.
 
 ### MAC Unit Multiplier and Adder Optimization — Innostar Semiconductor Co., Ltd.
 **Ongoing**
@@ -75,7 +80,7 @@ I am an undergraduate student at ShanghaiTech University (School of Information 
 - Proposed a **ultra-high-speed adder** combining **parallel-prefix** and **hybrid** structures to shorten the critical path.
 - Achieved up to **10.3% delay**, **12.6% ADP**, and **32.1% EDP** improvement over commercial synthesis tool baselines using a **TSMC 28nm** standard-cell library.
 <p align="center">
-  <img src="/images/axon.png" alt="AXON Result" width="600">
+  <img src="/images/axon.png" alt="AXON Result" width="800">
 </p>
 ### RISC-V Based AI Accelerator for CNN Inference — ShanghaiTech University
 **Fall 2025 (Course Project: AI Computing Systems)**
@@ -84,8 +89,8 @@ I am an undergraduate student at ShanghaiTech University (School of Information 
 - Built the software operator library in **C + inline assembly** to invoke vector/accelerator instructions; completed end-to-end deployment of Conv/Pool/FC/Softmax pipeline.
 - Achieved **103.4×** speedup over scalar baseline; outperformed vector-only implementation by **3.6×**.
 
-### Mixed-Signal Adaptive Filter — Competition Project
-**Summer 2025**
+### Mixed-Signal Adaptive Filter 
+**Summer 2025 (Competition Project)**
 - Built a circuit model exploration prototype: used **STM32H7** to control an **AD9959 DDS** for programmable stimulus generation, and drove an unknown **device-under-test (DUT)** circuit.
 - Designed the analog front-end for signal conditioning and computation; captured DUT outputs via on-chip **ADC** to form a closed-loop measurement pipeline.
 - Implemented on-device DSP to learn DUT behavior: performed **FFT-based** analysis to extract magnitude/phase response and inferred transfer function *H(s)* (with filter-type classification).
@@ -95,7 +100,7 @@ I am an undergraduate student at ShanghaiTech University (School of Information 
 </p>
 
 ### TM/TE Mode Cylindrical Microwave Cavity Resonator — ShanghaiTech University
-**Spring 2025 (Electromagnetics Course Project)**
+**Spring 2025 (Course Project)**
 - Derived resonant frequencies of TM/TE modes via Helmholtz equation and Bessel function analysis.
 - Simulated typical eigenmodes using **CST Microwave Studio**.
 - Verified field distributions via **eigenmode** and **time-domain** solvers; analyzed *S21* variations across multiple probe positions.
@@ -104,8 +109,8 @@ I am an undergraduate student at ShanghaiTech University (School of Information 
 <p align="center">
   <img src="/images/resonater.png" alt="resonater Result" width="500">
 </p>
-### Two-Stage CMOS Operational Amplifier Design — ShanghaiTech University
+<!-- ### Two-Stage CMOS Operational Amplifier Design — ShanghaiTech University
 **Fall 2024 (Analog Circuits Project)**
 - Designed a differential-input, single-ended-output **two-stage CMOS op-amp** using **TSMC 0.18 μm** process technology.
 - Met key specifications: **ADM ≥ 60 dB**, **Unity-Gain Bandwidth ≥ 100 MHz**, and **1 pF** capacitive load.
-- Completed a comprehensive LaTeX report detailing the design, simulation, and testing phases.
+- Completed a comprehensive LaTeX report detailing the design, simulation, and testing phases. -->
