@@ -41,3 +41,17 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ---- Custom avatar shape override ---- */
+.author__avatar img {
+  border-radius: 0 !important;   /* 0 = 长方形（直角） */
+  /* 想要圆角长方形就改成 10px / 12px / 16px */
+  /* border-radius: 12px !important; */
+}
+
+/* 可选：控制头像显示尺寸（防止被裁得奇怪） */
+.author__avatar img {
+  width: 230px;         /* 你想要的宽度 */
+  height: 210px;        /* 你想要的高度（长方形就把高设大一点） */
+  object-fit: cover;    /* 保持填充且不变形，可能会裁掉边缘 */
+}

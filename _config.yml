@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "self.jpg"
+  avatar           : "yutien.jpg"
   name             : "Tiantian Yang(楊天添)"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate Student at ShanghaiTech"  # A short bio that appears in the author profile section
