@@ -34,7 +34,7 @@ I am an undergraduate student at School of Information Science and Technology, [
 <!-- - **Under Review** — Xuanle Ren†, **Tiantian Yang†**, Qingdian Wan, Qi Meng.  
   *“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”* submitted to **DAC 2026: The Chips to Systems Conference**.  
   † Co-first authors. -->
-  - **Under Review** - submitted to **DAC 2026: The Chips to Systems Conference** as co-first author.  
+  - **Under Review** - submitted to ISEDA 2026 as **first author**.  
 
 <!-- - (If none) Selected technical reports / manuscripts. -->
 <!-- - Paper/Report title — status, year. [PDF](#) / [Code](#) -->
@@ -75,11 +75,14 @@ I am an undergraduate student at School of Information Science and Technology, [
 - Collaborated with hardware teams to integrate optimized components into final system designs, meeting PPA (Power, Performance, Area) targets.
 
 ### Automated Netlist Generater for High-Performance Adders — SPARC LAB, ShanghaiTech University
-**Aug.2025 -- Nov.2025**
+**Oct.2025 -- Jan.2026**
 - Developed an automated framework for **architecture-to-netlist design space exploration (DSE)** for adders, jointly optimizing **prefix topology** and **standard-cell-aware mapping**.
 - Implemented a **hierarchical search** strategy to efficiently converge to near-optimal solutions under user-defined PPA constraints.
 - Proposed a **ultra-high-speed adder** combining **parallel-prefix** and **hybrid** structures to shorten the critical path.
 - Achieved up to **10.3% delay**, **12.6% ADP**, and **32.1% EDP** improvement over commercial synthesis tool baselines using a **TSMC 28nm** standard-cell library.
+<p align="center">
+  <img src="/images/AXON0.png" alt="AXON Result0" width="810">
+</p>
 <p align="center">
   <img src="/images/axon.png" alt="AXON Result" width="800">
 </p>
