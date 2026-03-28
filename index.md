@@ -34,7 +34,7 @@ I am an undergraduate student at School of Information Science and Technology, [
 <!-- - **Under Review** — Xuanle Ren†, **Tiantian Yang†**, Qingdian Wan, Qi Meng.  
   *“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”* submitted to **DAC 2026: The Chips to Systems Conference**.  
   † Co-first authors. -->
-  - **Under Review** - submitted to ISEDA 2026 as **first author**.  
+**Tiantian Yang**, Xuanle Ren, Qingdian Wan, Qi Meng.  *“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”* accepted to **ISEDA 2026, Singapore**. 
 
 <!-- - (If none) Selected technical reports / manuscripts. -->
 <!-- - Paper/Report title — status, year. [PDF](#) / [Code](#) -->
@@ -119,3 +119,5 @@ I am an undergraduate student at School of Information Science and Technology, [
 - Designed a differential-input, single-ended-output **two-stage CMOS op-amp** using **TSMC 0.18 μm** process technology.
 - Met key specifications: **ADM ≥ 60 dB**, **Unity-Gain Bandwidth ≥ 100 MHz**, and **1 pF** capacitive load.
 - Completed a comprehensive LaTeX report detailing the design, simulation, and testing phases. -->
+
+bundle exec jekyll serve -l -H localhost
