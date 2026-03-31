@@ -34,7 +34,7 @@ I am an undergraduate student at School of Information Science and Technology, [
 <!-- - **Under Review** — Xuanle Ren†, **Tiantian Yang†**, Qingdian Wan, Qi Meng.  
   *“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”* submitted to **DAC 2026: The Chips to Systems Conference**.  
   † Co-first authors. -->
-**Tiantian Yang**, Xuanle Ren, Qingdian Wan, Qi Meng.  *“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”* accepted to **ISEDA 2026, Singapore**. 
+**Tiantian Yang**, Xuanle Ren, Qingdian Wan, Qi Meng.  [*“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”*](https://arxiv.org/pdf/2603.28184) accepted to **ISEDA 2026, Singapore**. 
 
 <!-- - (If none) Selected technical reports / manuscripts. -->
 <!-- - Paper/Report title — status, year. [PDF](#) / [Code](#) -->
@@ -65,12 +65,12 @@ I am an undergraduate student at School of Information Science and Technology, [
 
 ### Automated Compression-Tree Optimization for High-Speed Multipliers — SPARC LAB, ShanghaiTech University
 **Ongoing**
-- Developing an automated flow for **PPA-driven** optimization of multiplier **compression-tree → final-adder** implementations.
+<!-- - Developing an automated flow for **PPA-driven** optimization of multiplier **compression-tree → final-adder** implementations.
 - Exploring **topology-level design space** (e.g., stage planning and counter selection policies) with a **backend-aware evaluation loop** to guide iterative refinement.
-- Building a prototype **netlist generation + benchmarking** pipeline and comparing against standard baselines (e.g., Wallace/Dadda-style designs) under consistent synthesis constraints.
+- Building a prototype **netlist generation + benchmarking** pipeline and comparing against standard baselines (e.g., Wallace/Dadda-style designs) under consistent synthesis constraints. -->
 
 ### MAC Unit Multiplier and Adder Optimization — Innostar Semiconductor Co., Ltd.
-**Jan.2026 - Feb.2026**
+**Jan.2026 - Mar.2026**
 - Worked on joint optimization of multipliers and adders within MAC units for high-performance applications.
 - Collaborated with hardware teams to integrate optimized components into final system designs, meeting PPA (Power, Performance, Area) targets.
 
