@@ -65,9 +65,7 @@ I am an undergraduate student at School of Information Science and Technology, [
 
 ### Automated Compression-Tree Optimization for High-Speed Multipliers — SPARC LAB, ShanghaiTech University
 **Ongoing**
-<!-- - Developing an automated flow for **PPA-driven** optimization of multiplier **compression-tree → final-adder** implementations.
-- Exploring **topology-level design space** (e.g., stage planning and counter selection policies) with a **backend-aware evaluation loop** to guide iterative refinement.
-- Building a prototype **netlist generation + benchmarking** pipeline and comparing against standard baselines (e.g., Wallace/Dadda-style designs) under consistent synthesis constraints. -->
+
 
 ### MAC Unit Multiplier and Adder Optimization — Innostar Semiconductor Co., Ltd.
 **Jan.2026 - Mar.2026**
@@ -120,4 +118,4 @@ I am an undergraduate student at School of Information Science and Technology, [
 - Met key specifications: **ADM ≥ 60 dB**, **Unity-Gain Bandwidth ≥ 100 MHz**, and **1 pF** capacitive load.
 - Completed a comprehensive LaTeX report detailing the design, simulation, and testing phases. -->
 
-bundle exec jekyll serve -l -H localhost
+<!-- bundle exec jekyll serve -l -H localhost -->
