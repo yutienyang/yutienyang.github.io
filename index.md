@@ -9,7 +9,7 @@ author_profile: true
 {: #bio }
 
 **Hi!** 
-I am an undergraduate student at School of Information Science and Technology, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), focusing on **EDA**, **VLSI** and **Computer Architecture**. My research directions include high-performance, low-power arithmetic circuits and hardware accelerator design. In **[Prof. Xuanle Ren](https://sist.shanghaitech.edu.cn/rxl/main.htm)’s group** at [PMICC](https://pmicc.sist.shanghaitech.edu.cn/), I conduct standard-cell implementations and build design space exploration(**DSE**) workflows for circuit optimization. I have also worked as a **course teaching assistant**, strengthening my ability to communicate and explain technical concepts clearly. Beyond research and teaching, I enjoy hands-on **engineering projects** and have won awards in several competitions.
+I am an undergraduate student at School of Information Science and Technology, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), specializing in **EDA**, **VLSI** and **Computer Architecture**. Currently, I am a Research Assistant in **[Prof. Xuanle Ren](https://sist.shanghaitech.edu.cn/rxl/main.htm)’s group** at [PMICC](https://pmicc.sist.shanghaitech.edu.cn/), where my work focuses on high-performance, low-power arithmetic circuits through Design Space Exploration (DSE) workflows. My research, including the development of netlist optimization frameworks, aims to bridge the gap between architectural innovation and physical implementation. I have also served as a **course teaching assistant** for several core courses. Beyond research and teaching, I enjoy hands-on **engineering projects** and have won awards in some competitions.
 
 
 
