@@ -117,5 +117,4 @@ I am an undergraduate student at School of Information Science and Technology, [
 - Designed a differential-input, single-ended-output **two-stage CMOS op-amp** using **TSMC 0.18 μm** process technology.
 - Met key specifications: **ADM ≥ 60 dB**, **Unity-Gain Bandwidth ≥ 100 MHz**, and **1 pF** capacitive load.
 - Completed a comprehensive LaTeX report detailing the design, simulation, and testing phases. -->
-
 <!-- bundle exec jekyll serve -l -H localhost -->
