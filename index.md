@@ -35,7 +35,9 @@ I am an undergraduate student at School of Information Science and Technology, [
   *“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”* submitted to **DAC 2026: The Chips to Systems Conference**.  
   † Co-first authors. -->
 **Tiantian Yang**, Xuanle Ren, Qingdian Wan, Qi Meng.  [*“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”*](https://arxiv.org/pdf/2603.28184) accepted to **ISEDA 2026, Singapore(Oral Presentation)**. 
-
+<p align="center">
+  <img src="/images/pre_ISEDA2026.jpg" alt="Present at ISEDA2026, Marina Bay Sands" width="600">
+</p>
 <!-- - (If none) Selected technical reports / manuscripts. -->
 <!-- - Paper/Report title — status, year. [PDF](#) / [Code](#) -->
 
