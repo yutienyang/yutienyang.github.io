@@ -9,7 +9,7 @@ author_profile: true
 {: #bio }
 
 **Hi!** 
-I am an undergraduate student at School of Information Science and Technology, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), specializing in **EDA**, **VLSI** and **Computer Architecture**. Currently, I am a Research Assistant in **[Prof. Xuanle Ren](https://sist.shanghaitech.edu.cn/rxl/main.htm)’s group** at [PMICC](https://pmicc.sist.shanghaitech.edu.cn/), where my work focuses on high-performance, low-power arithmetic circuits through Design Space Exploration (DSE) workflows. My research, including the development of netlist optimization frameworks, aims to bridge the gap between architectural innovation and physical implementation. I have also served as a **course teaching assistant** for several core courses. Beyond research and teaching, I enjoy hands-on **engineering projects** and have won awards in some competitions.
+I am an undergraduate student at School of Information Science and Technology, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), specializing in **3DIC**, **DTCO** and **Computer Architecture**. Currently, I am a Research Assistant in **[Prof. Xuanle Ren](https://sist.shanghaitech.edu.cn/rxl/main.htm)’s group** at [PMICC](https://pmicc.sist.shanghaitech.edu.cn/), where my work focuses on high-performance, low-power arithmetic circuits through Design Space Exploration (DSE) workflows. My research, including the development of netlist optimization frameworks, aims to bridge the gap between architectural innovation and physical implementation. I have also served as a **course teaching assistant** for several core courses. Beyond research and teaching, I enjoy hands-on **engineering projects** and have won awards in some competitions.
 
 
 
@@ -24,7 +24,7 @@ I am an undergraduate student at School of Information Science and Technology, [
 {: #experience }
 
 - **Aug. 2025 – Present** — Research Assistant, Prof. Xuanle Ren’s Group, ShanghaiTech University  
-- **Feb. 2026 – Present** — Teaching Assistant, *Digital Circuits*, ShanghaiTech University  
+- **Feb. 2026 – Jun. 2026** — Teaching Assistant, *Digital Circuits*, ShanghaiTech University  
 - **Sep. 2025 – Jan. 2026** — Teaching Assistant, *Signals and Systems*, ShanghaiTech University  
 
 ---
@@ -34,9 +34,10 @@ I am an undergraduate student at School of Information Science and Technology, [
 <!-- - **Under Review** — Xuanle Ren†, **Tiantian Yang†**, Qingdian Wan, Qi Meng.  
   *“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”* submitted to **DAC 2026: The Chips to Systems Conference**.  
   † Co-first authors. -->
-**Tiantian Yang**, Xuanle Ren, Qingdian Wan, Qi Meng.  [*“AXON: An Automated Netlist Optimization Framework for High-Speed Adders,”*](https://arxiv.org/pdf/2603.28184) accepted to **ISEDA 2026, Singapore(Oral Presentation)**. 
+**Tiantian Yang**, Xuanle Ren, Qingdian Wan, Qi Meng.  **AXON: An Automated Netlist Optimization Framework for High-Speed Adders**, accepted to **ISEDA 2026, Singapore (Oral Presentation)**.  
+[Paper](https://arxiv.org/pdf/2603.28184) / [Presentation Slides](/files/ISEDA%2726-Presentation-AXON-Revised.pdf)
 <p align="center">
-  <img src="/images/pre1_ISEDA2026.jpg" alt="Present at ISEDA2026, Marina Bay Sands" width="600">
+  <img src="/images/pre1_ISEDA2026.jpg" alt="Present at ISEDA2026, Marina Bay Sands" width="400">
 </p>
 <!-- - (If none) Selected technical reports / manuscripts. -->
 <!-- - Paper/Report title — status, year. [PDF](#) / [Code](#) -->
@@ -65,9 +66,9 @@ I am an undergraduate student at School of Information Science and Technology, [
 - [GitHub](#) -->
 
 
-### Automated Compression-Tree Optimization for High-Speed Multipliers — SPARC LAB, ShanghaiTech University
-**Ongoing**
 
+### Back-end Resource Evaluation for a Homomorphic Encryption Accelerator based on Monolithic 3D Integration — ShanghaiTech University & Shanghai Jiao Tong University
+**Jun.2026 - Jul.2026**
 
 ### MAC Unit Multiplier and Adder Optimization — Innostar Semiconductor Co., Ltd.
 **Jan.2026 - Mar.2026**
