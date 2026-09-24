@@ -8,14 +8,18 @@ author_profile: true
 ## Bio
 {: #bio }
 
-**Hi!** 
-I am an undergraduate student at School of Information Science and Technology, [ShanghaiTech University](https://www.shanghaitech.edu.cn/), specializing in **3DIC**, **DTCO** and **Computer Architecture**. Currently, I am a Research Assistant in **[Prof. Xuanle Ren](https://sist.shanghaitech.edu.cn/rxl/main.htm)’s group** at [PMICC](https://pmicc.sist.shanghaitech.edu.cn/), where my work focuses on high-performance, low-power arithmetic circuits through Design Space Exploration (DSE) workflows. My research, including the development of netlist optimization frameworks, aims to bridge the gap between architectural innovation and physical implementation. I have also served as a **course teaching assistant** for several core courses. Beyond research and teaching, I enjoy hands-on **engineering projects** and have won awards in some competitions.
+Tiantian Yang is now an undergraduate student at the School of Information Science and Technology, [ShanghaiTech University](https://www.shanghaitech.edu.cn/). Tiantian’s research interests include **VLSI design & automation** and **computer architecture**. Currently, Tiantian is a research assistant in Prof. Xuanle Ren’s group at the [Post-Moore Microelectronics and Integrated Circuit Center](https://pmicc.sist.shanghaitech.edu.cn/). He has also served as a **teaching assistant** for several core courses. In the coming year, Tiantian will join the **Shanghai Institute of Semiconductor Innovation** as a doctoral student in integrated circuit engineering, with the goal of developing chips with real-world industrial impact.
 
 
 
 ### Education
-- **Sep. 2023 – Present**, ShanghaiTech University, B.Eng. Electronic Engineering 
-- **Sep. 2020 - Jun. 2023**, Jianping High School, Shanghai
+- **Sep. 2027 – Aug. 2031** *(Expected)*, **D.Eng. in Electronic Information Engineering**<br>
+  *Shanghai Institute of Semiconductor Innovation (**SISI**)*<br>
+  *School of Information Science and Technology (**SIST**)*, *ShanghaiTech University*
+- **Sep. 2023 – Jul. 2027** *(Expected)*, B.Eng. Electronic Information Engineering<br>
+  *School of Information Science and Technology (**SIST**)*, *ShanghaiTech University*
+
+- **Sep. 2020 - Jul. 2023**, Jianping High School, Shanghai
 <!-- - (optional) GPA / advisor / lab / key coursework -->
 
 ---
