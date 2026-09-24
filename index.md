@@ -8,7 +8,7 @@ author_profile: true
 ## Bio
 {: #bio }
 
-Tiantian Yang is now an undergraduate student at the School of Information Science and Technology, [ShanghaiTech University](https://www.shanghaitech.edu.cn/). Tiantian’s research interests include **VLSI design & automation** and **computer architecture**. Currently, Tiantian is a research assistant in Prof. Xuanle Ren’s group at the [Post-Moore Microelectronics and Integrated Circuit Center](https://pmicc.sist.shanghaitech.edu.cn/). He has also served as a **teaching assistant** for several core courses. In the coming year, Tiantian will join the **Shanghai Institute of Semiconductor Innovation** as a doctoral student in integrated circuit engineering, with the goal of developing chips with real-world industrial impact.
+Tiantian Yang is now an undergraduate student at the School of Information Science and Technology, [ShanghaiTech University](https://www.shanghaitech.edu.cn/). His research interests include **VLSI design & automation** and **computer architecture**. Currently, he is a research assistant in Prof. Xuanle Ren’s group at the [Post-Moore Microelectronics and Integrated Circuit Center](https://pmicc.sist.shanghaitech.edu.cn/). He has also served as a **teaching assistant** for several core courses. In the coming year, Tiantian will join the **Shanghai Institute of Semiconductor Innovation** as a doctoral student in integrated circuit engineering, with the goal of developing chips with real-world industrial impact.
 
 
 
@@ -18,7 +18,6 @@ Tiantian Yang is now an undergraduate student at the School of Information Scien
   *School of Information Science and Technology (**SIST**)*, *ShanghaiTech University*
 - **Sep. 2023 – Jul. 2027** *(Expected)*, B.Eng. Electronic Information Engineering<br>
   *School of Information Science and Technology (**SIST**)*, *ShanghaiTech University*
-
 - **Sep. 2020 - Jul. 2023**, Jianping High School, Shanghai
 <!-- - (optional) GPA / advisor / lab / key coursework -->
 
