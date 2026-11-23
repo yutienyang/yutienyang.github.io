@@ -1,0 +1,100 @@
+---
+layout: null
+title: "心路"
+permalink: /journal/
+sitemap: false
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://api.github.com; img-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <title>心路 · {{ site.name | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/journal.css' | relative_url }}">
+  <script type="module" src="{{ '/assets/js/journal.mjs' | relative_url }}"></script>
+</head>
+<body>
+  <main class="journal">
+    <header class="heading">
+      <a href="{{ '/' | relative_url }}">{{ site.name | escape }} · 主页</a>
+      <p class="eyebrow">A SPACE FOR MYSELF</p>
+      <h1>心路</h1>
+      <p class="intro">留一点空间，写给自己。</p>
+    </header>
+    <noscript>此页面需要 JavaScript 才能在浏览器中加密和解密日记。</noscript>
+    <p id="status" role="status" aria-live="polite">正在准备加密工具…</p>
+    <section id="gate" class="card" aria-label="解锁日记">
+      <h2>打开自己的那一页</h2>
+      <p class="muted">日记加密后存放在 GitHub。输入 key，在这里阅读或继续写。</p>
+      <form id="unlock-form" autocomplete="off">
+        <fieldset id="gate-fields" disabled>
+          <label for="repository">GitHub 仓库</label>
+          <input id="repository" name="repository" value="yutienyang/yutienyang.github.io" required spellcheck="false" autocapitalize="none">
+          <label for="token">GitHub Token <span class="muted">保存修改 / 访问私有仓库时需要</span></label>
+          <input id="token" type="password" autocomplete="off" spellcheck="false" aria-describedby="token-help">
+          <p id="token-help" class="hint">只在本次打开期间使用，不保存在浏览器中。公开仓库仅阅读时可留空。</p>
+          <label for="key">你的 key</label>
+          <input id="key" type="password" required autocomplete="off" aria-describedby="key-help">
+          <p id="key-help" class="hint">key 只用于本机解密，不发送给 GitHub。请妥善保存，丢失后无法找回日记。</p>
+          <button type="submit" class="primary">打开日记</button>
+          <div id="create-panel" hidden>
+            <p>这个仓库还没有日记。创建时请使用至少 16 个字符的随机 key 或长口令。</p>
+            <label for="confirm-key">再次输入 key</label>
+            <input id="confirm-key" type="password" autocomplete="off">
+            <button id="create" type="button" class="primary">创建加密日记</button>
+          </div>
+        </fieldset>
+      </form>
+      <details class="help">
+        <summary>第一次使用：如何准备 GitHub Token？</summary>
+        <ol>
+          <li>打开 <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">GitHub 的 Fine-grained Token 设置</a>，设置有效期。</li>
+          <li>Repository access 选择 Only select repositories，只选上面填写的仓库。</li>
+          <li>Repository permissions 中把 Contents 设置为 Read and write，生成后粘贴到这里。</li>
+        </ol>
+        <p>默认使用主页仓库，也可以填写另一个已初始化的私有仓库。公开仓库里的密文可被下载，务必使用强 key。Token 和 key 是两件不同的东西。</p>
+        <p>标题、日期和正文都会加密。GitHub 仍会记录文件大小、提交时间和历史版本；删除日记不会抹去历史密文。此页面不加载第三方脚本。</p>
+      </details>
+    </section>
+    <section id="workspace" hidden aria-label="我的日记">
+      <div class="toolbar">
+        <span id="connection" class="muted"></span>
+        <div class="actions">
+          <button id="save" type="button" class="primary">加密并保存到 GitHub</button>
+          <button id="backup" type="button">导出加密备份</button>
+          <button id="restore" type="button">导入备份</button>
+          <input id="backup-file" type="file" accept=".json,application/json" hidden>
+          <button id="lock" type="button">锁定</button>
+        </div>
+      </div>
+      <div class="journal-grid">
+        <aside class="card entries">
+          <button id="new-entry" type="button" class="primary">写一篇</button>
+          <p id="empty" class="muted">还没有记录。<br>从今天的一点心情开始。</p>
+          <ul id="entry-list" aria-label="日记列表"></ul>
+        </aside>
+        <section class="card writing">
+          <p id="choose" class="muted">选一篇记录，或写下新的心路。</p>
+          <form id="editor" hidden autocomplete="off">
+            <fieldset id="editor-fields">
+              <label for="entry-date">日期</label>
+              <input id="entry-date" type="date" required>
+              <label for="entry-title">标题</label>
+              <input id="entry-title" placeholder="给这一天一个名字" maxlength="200" spellcheck="false">
+              <label for="entry-body">正文</label>
+              <textarea id="entry-body" rows="16" placeholder="慢慢写，不必急着得出答案。" spellcheck="false"></textarea>
+            </fieldset>
+            <div class="actions">
+              <button id="delete" type="button" class="danger">删除这篇</button>
+            </div>
+          </form>
+        </section>
+      </div>
+      <p class="hint">保存成功后，其他设备重新打开即可读取。离开前请保存并锁定；闲置 10 分钟后会锁定，未保存的草稿会先加密暂存在本页内存中，刷新或关闭页面会丢失。</p>
+    </section>
+  </main>
+</body>
+</html>
