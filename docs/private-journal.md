@@ -4,7 +4,7 @@
 
 1. 默认仓库是 `yutienyang/yutienyang.github.io`，也可以填另一个你拥有的私有仓库。仓库必须已初始化（至少有一个 README）。
 2. 在 <https://github.com/settings/personal-access-tokens/new> 创建 Fine-grained Token：只选这个仓库，Repository permissions → Contents → Read and write，并设置有效期。
-3. 在页面输入 Token 和一个至少 16 字符的强随机 key（建议密码管理器生成）。点击「打开日记」，没有文件时再次输入 key，点击「创建加密日记」。不要把 Token 或 key 发给别人或提交到代码中。
+3. 在页面输入 Token 和一个至少 6 字符的 key（建议使用更长的随机 key）。点击「打开日记」，没有文件时再次输入 key，点击「创建加密日记」。不要把 Token 或 key 发给别人或提交到代码中。
 4. 点击「写一篇」，在页面编辑，点击「加密并保存到 GitHub」。看到成功提示后才表示服务器确认保存。每次保存会产生一次 GitHub 提交。
 5. 其他设备打开相同页面、填写相同仓库与 key 即可读取。保存修改需要 Token；私有仓库读取也需要 Token。公开仓库可以不填 Token，只读解锁。
 

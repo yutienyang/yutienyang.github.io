@@ -23,7 +23,11 @@ test('Unicode vault round trips; plaintext/key absent, IV unique, key non-extrac
   corrupted[0] ^= 1;
   await assert.rejects(decryptVault({ ...first, ciphertext: toBase64(corrupted) }, password), /无法解锁/);
   await assert.rejects(decryptVault({ ...first, iterations: 1 }, password), /不支持/);
-  await assert.rejects(createVault('short'), /16/);
+  await assert.rejects(createVault('short'), /6/);
+  const shortKey = 'aB3!x9';
+  const shortVault = await createVault(shortKey);
+  const shortEnvelope = await encryptVault(entries, shortVault.key, shortVault.salt);
+  assert.deepEqual((await decryptVault(shortEnvelope, shortKey)).entries, entries);
 });
 
 test('reject invalid decrypted records and oversized vaults', async () => {

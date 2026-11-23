@@ -50,7 +50,7 @@ export async function encryptVault(entries, key, salt) {
 }
 
 export async function createVault(password) {
-  if (password.length < 16) throw new Error('请使用至少 16 个字符的 key，建议用密码管理器生成。');
+  if (password.length < 6) throw new Error('请使用至少 6 个字符的 key。');
   const salt = crypto.getRandomValues(new Uint8Array(16));
   return { key: await deriveKey(password, salt), salt, entries: [] };
 }
